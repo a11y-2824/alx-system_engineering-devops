@@ -1,2 +1,2 @@
 # learning objectives
-this is an interactivd game
+this is an interactive game
