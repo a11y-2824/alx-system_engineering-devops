@@ -5,6 +5,6 @@ exec {'pip3 install flask==2.1.0':
 }
 
 package {'flask':
-  ensure  => 'installed':
+  ensure  => 'installed',
   require =>  Exec['pip3 install flask==2.1.0']
 }
