@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A bash script that diplays the list of currently running processes
+# It shows the processes without TTY in user oriented format
+
+ps -u
