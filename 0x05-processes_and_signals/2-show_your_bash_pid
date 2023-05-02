@@ -2,4 +2,4 @@
 # a Bash script that displays lines containing the bash word
 # shellcheck disable=SC2009
 
-pidof "bash" | ps -u
+ps -aux | grep "bash"
